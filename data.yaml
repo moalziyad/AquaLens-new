@@ -1,0 +1,6 @@
+path: ../data
+train: ../images/train
+val: ../images/valid
+
+nc: 1  # Number of classes (assuming only one class for microplastics)
+names: ['microplastic']  # Name of the class
