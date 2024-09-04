@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.yaml
-data: /content/Microplastic-Dataset-19/data.yaml
+data: data.yaml
 epochs: 100
 time: null
 patience: 50
