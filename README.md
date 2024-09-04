@@ -8,7 +8,7 @@ AquaLens is a project aimed at detecting microplastics in water using advanced d
 
 ## Features
 
-- **Microplastic Detection:** Utilizes a YOLOv5 model to accurately identify microplastic particles in images of water samples.
+- **Microplastic Detection:** Utilizes a YOLOv8 model to accurately identify microplastic particles in images of water samples.
 - **Scalable Architecture:** The model is built using the PyTorch framework, enabling easy training and fine-tuning for different datasets.
 - **Real-time Analysis:** The system is designed to process images continuously, making it suitable for real-time monitoring of water sources.
 - **Cross-Platform Deployment:** The model is integrated into a Django server-side application and connected to a Flutter-based front-end for seamless user interaction.
@@ -16,8 +16,8 @@ AquaLens is a project aimed at detecting microplastics in water using advanced d
 ## Contents
 
 - `Model/`
-  - `train.py`: Script to train the YOLOv5 model on microplastic datasets.
-  - `yolov5/`: Contains the implementation of the YOLOv5 architecture, including pre-trained weights and configuration files.
+  - `train.py`: Script to train the YOLOv8 model on microplastic datasets.
+  - `yolov5/`: Contains the implementation of the YOLOv8 architecture, including pre-trained weights and configuration files.
   - `data/`: Directory for storing datasets, including images and annotations.
   - `results/`: Output directory for saving trained models and evaluation metrics.
   - `requirements.txt`: List of Python dependencies required to run the project.
@@ -45,7 +45,7 @@ AquaLens is a project aimed at detecting microplastics in water using advanced d
    pip install -r requirements.txt
    ```
 
-3. **Download the YOLOv5 pre-trained weights:**
+3. **Download the YOLOv8 pre-trained weights:**
 
    Download the pre-trained weights from the [YOLOv5 repository](https://github.com/ultralytics/yolov5) or use the provided weights in the `yolov5/weights/` directory.
 
