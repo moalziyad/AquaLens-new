@@ -27,7 +27,6 @@ AquaLens is a project aimed at detecting microplastics in water using advanced d
 ### Prerequisites
 
 - Python 3.8 or higher
-- PyTorch 1.7 or higher
 - CUDA (optional, for GPU support)
 - Additional dependencies listed in `requirements.txt`
 
